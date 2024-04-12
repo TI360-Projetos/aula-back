@@ -1,0 +1,8 @@
+
+
+# GET http://localhost/juntar?texto1=Olá turma&texto2=do curso de Python&texto3=Fulano de tal
+# Content-Type: application/json
+# ```
+
+GET http://localhost/minha-aula2
+Content-Type: application/json

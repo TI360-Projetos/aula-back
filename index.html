@@ -1,0 +1,15 @@
+<html> 
+    <head></head>
+    <body>
+        
+        <script>
+            fetch('http://localhost:8080/lista-de-desejos', {
+                method: 'GET'
+            }).then(function(resposta) {
+                return resposta.text();
+            }).then(function(dados) {
+                console.log(dados)
+            });
+        </script>
+    </body>
+</html>

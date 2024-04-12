@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:5000"
+    volumes:
+      - .:/app
+  
+  sanic:
+    build: .
+    ports:
+      - "8001:5000"
+    volumes:
+      - .:/app
+  
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: aula
+      MYSQL_USER: aula
+      MYSQL_PASSWORD: root
+    
