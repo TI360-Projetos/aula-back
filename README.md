@@ -7,3 +7,5 @@
 - Para executar o servidor rode no seu terminal o comando `python api.py`
 
 Após os passos acima a sua API estará disponível na porta 5000 da sua máquina `http://localhost:5000`
+
+## Como fazer deploy
